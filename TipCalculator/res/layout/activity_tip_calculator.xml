@@ -29,7 +29,7 @@
         android:text="@string/round_to_nearest_dollar" />
 
     <EditText
-        android:id="@+id/editBillAmount"
+        android:id="@+id/edtBillAmount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/chkRound"
@@ -47,8 +47,8 @@
         android:id="@+id/lblBillAmount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/editBillAmount"
-        android:layout_alignBottom="@+id/editBillAmount"
+        android:layout_alignBaseline="@+id/edtBillAmount"
+        android:layout_alignBottom="@+id/edtBillAmount"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="31dp"
         android:text="@string/bill_amount"

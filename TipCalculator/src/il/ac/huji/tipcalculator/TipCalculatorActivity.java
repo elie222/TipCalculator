@@ -24,7 +24,7 @@ public class TipCalculatorActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				final CheckBox chkRound = (CheckBox) findViewById(R.id.chkRound);
-				final EditText editBillAmount = (EditText) findViewById(R.id.editBillAmount);
+				final EditText editBillAmount = (EditText) findViewById(R.id.edtBillAmount);
 				final TextView txtTipResult = (TextView) findViewById(R.id.txtTipResult);
 
 				double tipResult = Double.parseDouble(editBillAmount.getText().toString()) * 0.12;
